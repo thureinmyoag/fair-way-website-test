@@ -9,6 +9,7 @@ html, body {
   height: 70px;
   display: block;
   flex-grow: 1;
+  position: relative;
 }
 .fixed-nav #header {
   position: fixed;
@@ -21,20 +22,22 @@ html, body {
   flex-shrink: 0.5;
 }
 .fixed-nav #logo img {
-  position: relative;
+  position: absolute;
   left: 7%;
   max-width: 50px;
   margin-left: 40px;
 }
 .fixed-nav #title {
-  position: relative;
+  position: absolute;
   left: 15%;
+  top: 30%;
   font-size: 25px;
   color: #508BE2;
 }
 .fixed-nav #title-content {
-  position: relative;
+  position: absolute;
   left: 17%;
+  top: 75%;
   font-size: 10px;
 }
 
@@ -48,7 +51,6 @@ html, body {
 
 .container1 {
   background-color: #F9F9F9;
-  position: absolute;
   height: 100px;
   position: relative;
   display: block;
@@ -193,6 +195,13 @@ article2 a {
 
 .content-list {
   color: #000;
+}
+.content-list li {
+  background-image: url("tick-icon.png");
+  background-color: transparent;
+  background-repeat: repeat;
+  list-style: list;
+  background-position: top right;
 }
 
 article3 {
