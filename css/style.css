@@ -245,10 +245,16 @@ footer {
   flex-grow: 1;
   height: 100px;
   background-color: #0084C8;
+  font-size: 15px;
 }
 footer p {
   color: #F5F5F4;
   text-align: center;
+}
+footer p a {
+  text-decoration: none;
+  text-align: center;
+  color: #F5F5F4;
 }
 
 /*# sourceMappingURL=style.css.map */
