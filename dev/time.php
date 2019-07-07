@@ -1,0 +1,3 @@
+<?php
+strtotime(now)
+?>
